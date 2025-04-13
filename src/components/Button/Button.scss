@@ -1,0 +1,77 @@
+.button-container {
+    padding: 50px;
+    width: 90%;
+    height: auto;
+    max-width: 700px;
+    margin: auto;
+
+    .button-item {
+        padding: 0.6rem 1.2rem;
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        background-color: transparent;
+        border: 2px solid #a18aba;
+        border-radius: 10px;
+        color: #a18aba;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .active-button {
+        padding: 0.6rem 1.2rem;
+        font-size: 1rem;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+        background-color: rgb(246, 240, 251);
+        border: 2px solid #a18aba;
+        border-radius: 10px;
+        color: #160e1e;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .button-section {
+         
+        .button-item {
+            margin: 10px;
+            cursor: pointer;
+        }
+    }
+
+    .example-section {
+        margin: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        font-size: 15px;
+    }
+
+    .example-title {
+        font-size: 1.6rem;
+        color: #d9c5ff;
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-bottom: 0.5rem;
+        text-align: center;
+      }
+      
+      .example-description {
+        font-size: 1rem;
+        color: #e5e5e5;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+        text-align: center;
+      }
+      
+      .example-code {
+        background-color: #1e1e2f;
+        color: #c5f0ff;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0.9rem;
+        padding: 1rem;
+        border-radius: 10px;
+        overflow-x: auto;
+        box-shadow: 0 0 10px rgba(161, 138, 186, 0.2);
+        white-space: pre-wrap; // wraps long lines nicely
+      }
+      
+}
